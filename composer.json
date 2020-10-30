@@ -15,6 +15,7 @@
     "laracasts/flash": "^3.2",
     "davejamesmiller/laravel-breadcrumbs": "^6.0"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "AhmedAliraqi\\Adminlte\\": "src/"

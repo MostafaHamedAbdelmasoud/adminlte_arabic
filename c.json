@@ -1,0 +1,34 @@
+{
+  "name": "Mostafahamed/adminlte-arabic/",
+  "description": "An easy way to integrate AdminLTE into your laravel applications.",
+  "keywords": ["laravel", "adminlte", "dashboard", "admin", "administrator"],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmed Fathy",
+      "email": "aliraqi.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "laracasts/flash": "^3.2",
+    "davejamesmiller/laravel-breadcrumbs": "^6.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "AhmedAliraqi\\Adminlte\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AhmedAliraqi\\Adminlte\\AdminlteServiceProvider"
+      ]
+    }
+  }
+}
